@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Webhook test working!');
+    res.send('Webhook test working! Sample Test');
 });
 
 app.listen(3000, () => {
